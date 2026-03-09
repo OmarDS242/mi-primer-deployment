@@ -1,19 +1,13 @@
 {
   "name": "mi-primer-deployment",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Aplicación simple para deployment",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "scripts": {
-  "start": "node app.js"
-}
   "keywords": [],
-  "author": "",
+  "author": "Omar",
   "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "express": "^5.2.1"
-  }
+  "type": "commonjs"
 }
